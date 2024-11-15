@@ -1,20 +1,21 @@
+[[00 Main - Introduction to Machine Learning]]
 # KNN Project
 
 ## Code
-- [ ] function for the random selection, used for train test split and cross validation
-- [ ] function for the distance
-- [ ] function for the accuracy
+- [x] function for the random selection, used for train test split and cross validation
+- [x] function for the distance
+- [x] function for the accuracy
 - [ ] function for the time spent on prediction
-- [ ] function for knn
+- [x] function for knn
 	- [ ] deal with cases where majority vote is tied: random, closest distance?
 - [ ] EDA:
 	- [ ] quick overviews of the dataset, mean and stdevs for the 21 features
 	- [ ] feature by feature distributions maybe, q-q plots to test normality
 - [ ] cross validation: 
 	- [ ] how many folds? - search literature to justify
-	- [ ] tune the k in each fold? how to choose the k after
+	- [ ] tune the k in each fold?
 	- [ ] plots
-		- [ ] accuracy vs k
+		- [x] accuracy vs k
 - [ ] data reduction algorithms
 	- [ ] Bayesian region cleaning
 		- [ ] run the algorithm with the best k again and compare time and accuracy
