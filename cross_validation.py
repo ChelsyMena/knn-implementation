@@ -113,8 +113,10 @@ def knn_predictions(train_data, test_data, k, distance_matrix=None):
 				distances.append(distance)
 
 		# Pick the indexes of the k nearest neighbors
-		k_nearest = np.argpartition(distances, k)[:k]
-		k_nearest_labels = train_data[k_nearest][:, 21]
+		if len(distances) > 1:
+			k_nearest = np.argpartition(distances, k)[:k]
+			k_nearest_labels = train_data[k_nearest][:, 21]
+		else: k_nearest_labels = train_data[:, 21]
 
 		# Cast simple majority vote. DOESNT TAKE TIES INTO ACCOUNT
 		values, counts = np.unique(k_nearest_labels, return_counts=True)
