@@ -25,6 +25,7 @@
 	- [ ] precalculate the distance matrix
 		- [ ] run the algorithm (with the original dataset) with the best k again and compare time and accuracy
 		- [ ] run the algorithm (with the double cleaned dataset) with the best k again and compare time and accuracy
+	- [x] KD Trees
 - [ ] Imbalanced Dataset
 
 ## Report
@@ -39,3 +40,13 @@
 Nice pairs of features for plotting
 16 vs 6
 
+Nice random seed 13, k = 47 and acc = 85%
+random seed 33, k=40, acc 0.850250
+
+
+random seed 77
+   n_splits  Best k  Best Average Accuracy
+0         3      61               0.856714
+1         4      71               0.859250
+2         5      86               0.859750
+3        10     100               0.863250
