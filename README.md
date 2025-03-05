@@ -9,7 +9,7 @@ This project implements **K-Nearest Neighbors (KNN)** from scratch using **NumPy
 - Test **data reduction techniques** to speed up nearest neighbor searches  
 
 ## 🛠 Techniques Used  
-### 🔹 **Optimizations for Speed**   
+
 ✅ **KD-Trees** for efficient neighbor searches   
 ✅ **Bayesian Region Cleaning** to remove regions where the prediction was as good as random guessing  
 ✅ **Condensed Dataset** to remove unnecessary data points
