@@ -1,7 +1,7 @@
 # ⚡ K-Nearest Neighbors with NumPy  
 
 ## 📌 Overview  
-This project implements **K-Nearest Neighbors (KNN)** from scratch using **NumPy** and explores techniques to speed up computation and reduce data size while maintaining accuracy.  
+This project implements **K-Nearest Neighbors (KNN)** from scratch using **NumPy** and explores techniques to speed up computation and reduce data size while maintaining accuracy. It was trained on the [Waveforms Dataset](https://archive.ics.uci.edu/dataset/108/waveform+database+generator+version+1)   
 
 ## 🚀 Goals  
 - Implement **KNN without scikit-learn**  
